@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Roboto&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+/* logo de mi header*/
+
+
+.mi-logo{
+    border-radius: 20%;
+    height:100px;
+    width:100%;
+}
+
+.mi-nav{
+    background: linear-gradient(to bottom, transparent, #222);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+h2{
+	margin:10px;
+	padding:25px;
+	font-size: 35px;
+	font-family: roboto;
+    font-style: italic;
+	background-color: rgb(22, 18, 11);
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+h2:hover{
+               /*animacion*/
+
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count:all ;
+}
+
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    }
+
+
+
+
+                /*seccion cards usados*/
+
+.card{
+    margin:2em;
+}
+
+.contenedorCards{
+    display: flex;
+    border-radius: 4%;
+}
+
+ .el-foter{
+    background: linear-gradient(to bottom, transparent, #222);
+
+ }
+ 
+
+
+.red-social{
+    height: 200px;
+    height: 100px;
+    padding: 1em;
+}
+
+
+.boton-uno{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+       
+/* seccion de financiacion*/
+
+.el-texto{
+    color: azure;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-wrap: nowrap;
+
+}

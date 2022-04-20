@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- link animacion -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>clase10</title>
+</head>
+
+<body>
+
+    <nav class="p-4 navbar navbar-expand-lg mi-nav center my-2 ">
+        <div class="container-fluid">
+            <a class="p-6 navbar-brand" href="index.html"><img class="mi-logo" src="img/logo.jpg"
+                    alt="autos usados"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="usados.html">Usados</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="contacto.html" class="nav-link active">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="financiacion.html" class="nav-link active">Financiacion</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="ubicacion.html" class="nav-link active">Ubicacion</a>
+                    </li>   
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <h2>Formulario de contacto</h2>
+
+    <!-- seccion del formulario -->
+
+    <form class="pt-5 pb-4 p-4 tex">
+        <div class="mb-3">
+            <label for=""></label>
+            <input type="text" class="form-control" placeholder="ingrese nombre" >|
+
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" placeholder="ingrese email" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">.</div>
+        </div>
+
+        
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Acepto terminos y condiciones</label>
+        </div>
+        <button type="submit"  class="btn btn-secondary boton-uno" >Enviar</button>
+    </form>
+
+    <!-- seccion footer -->
+    <footer class="el-foter text-white pt-5 pb-4 p-4 c ">
+        <p class="container text-center text-md left ">Redes Sociales</p>
+        <div class="container text-center text-md left ">
+            <a href="contacto.html"> <img class="red-social" src="img/watsap.png" alt=""></a>
+            <a href="contacto.html"> <img class="red-social" src="img/insta.png" alt=""></a>
+            <p>Dias y horario de atencion lunes a sabado de 9 a 17hs</p>
+        </div>
+    </footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+
+</body>
+
+</html>
